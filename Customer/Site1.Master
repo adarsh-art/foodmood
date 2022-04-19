@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication1.Customer.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="Custcss/custhome.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+         <div class="icon-bar">                              
+          <a class="active" href="custhome.aspx"> MENU<i class="fa fa-home"></i></a>
+          <a href="custaccount.aspx"><i class="fa fa-search">MY ACCOUNT</i></a>
+          <a href="order.aspx"><i class="fa fa-envelope">MY ORDER</i></a>
+          <a href="cart.aspx"><i class="fa fa-globe">MY CART</i></a>                   
+          <a href="bill.aspx"><i class="fa fa-globe">BILL</i></a>
+          <a href="Customerlogin.aspx"><i class="fa fa-globe">LOG OUT</i></a> 
+        </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

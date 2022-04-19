@@ -1,0 +1,80 @@
+﻿body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('../../Image/sandwich.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.custlogin {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 420px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5);
+}   
+
+
+h2, h3 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: rgb(225,217, 9);
+}
+
+.lbusname, .lbpass {
+    font-weight: bold;
+    color: #fff;
+}
+
+.txtusname, .txtpass, .btn {
+    width: 100%;
+    margin-bottom: 17%;
+}
+
+.txtusname, .txtpass {
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 30px;
+    color: #fff;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+::placeholder {
+    color: rgba(225,225,225,.5);
+}
+
+.btn {
+    border: none;
+    outline: none;
+    height: 20px;
+    width: 100px;
+    font-size: 16px;
+    color: rgba(225,205,9,0.92);
+    background-color: rgb(225,9,9);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: rgb(225,9,9);
+}
+
+h3 {
+    text-align: start;
+    font-size: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+}
